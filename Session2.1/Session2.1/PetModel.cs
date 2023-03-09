@@ -15,7 +15,7 @@ namespace Session2._1
         [JsonProperty("category")]
         public Category Category { get; set; }
 
-        [JsonProperty("name")]
+        [JsonProperty("name")] 
         public string Name { get; set; }
 
         [JsonProperty("photoUrls")]

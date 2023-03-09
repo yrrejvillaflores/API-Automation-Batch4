@@ -123,7 +123,7 @@ namespace Session2._1
 
             //Assertion
             Assert.AreEqual(HttpStatusCode.OK, statusCode, "Status Code not equal to 200");
-            Assert.AreEqual(petData.Name, updatedPetData, "Pet Name not matching");
+            Assert.AreEqual(petData.Name, updatedPetData, "Pet Name not matching"); 
 
             #endregion
         }
